@@ -8,14 +8,14 @@ RubyLLM.configure do |config|
   config.openrouter_api_key = ENV['OPENROUTER_API_KEY']
 end
 
-directory 'data'
+directory 'extract'
 directory 'input'
 directory 'output'
 
-desc 'Prepare input CSV file by querying content store database'
-file 'data/raw.csv' => 'data' do
+desc 'Prepare input CSV file by querying content store base'
+file 'extract/raw.csv' => 'extract' do
   query_file = File.join(File.dirname(__FILE__), 'query.sql')
-  output = File.join(File.dirname(__FILE__), 'data', 'raw.csv')
+  output = File.join(File.dirname(__FILE__), 'extract', 'raw.csv')
 
   sh "govuk-docker up -d content-store-lite"
   sh "docker exec -i govuk-docker-content-store-lite-1 rails db < #{query_file} > #{output}"
@@ -23,7 +23,7 @@ file 'data/raw.csv' => 'data' do
 end
 
 def raw_data
-  @data ||= CSV.read('data/raw.csv', headers: true)
+  @raw ||= CSV.read('extract/raw.csv', headers: true)
 end
 
 def raw_data_ids
@@ -36,7 +36,7 @@ end
 
 raw_data_ids.each do |id|
   desc "Prepare input file #{id}.json"
-  file "input/#{id}.json" => ['input', 'data/raw.csv'] do |f|
+  file "input/#{id}.json" => ['input', 'extract/raw.csv'] do |f|
     data = raw_data.find {|r| r['id'] == id}
 
     File.write(
@@ -84,11 +84,11 @@ end
 desc 'Regenerate all files in output/'
 task :outputs => raw_data_ids.map { |id| "output/#{id}.json" }
 
-task :setup => ['data/raw.csv']
+task :setup => ['extract/raw.csv']
 
 task :default do
   Rake::Task['setup'].invoke
   exec('rake', 'inputs')
 end
 
-CLOBBER.include('data', 'input')
+CLOBBER.include('extract', 'input')
