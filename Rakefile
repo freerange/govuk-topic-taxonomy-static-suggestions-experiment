@@ -29,7 +29,9 @@ file 'extract/raw.csv' => 'extract' do
 end
 
 def raw_data
-  @raw ||= File.exist?('extract/raw.csv') ? CSV.read('extract/raw.csv', headers: true) : []
+  return [] if !File.exist?('extract/raw.csv')
+
+  @raw ||= CSV.read('extract/raw.csv', headers: true)
 end
 
 def raw_data_ids
