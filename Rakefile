@@ -156,7 +156,7 @@ raw_data_ids.each do |id|
     input_json = JSON.load_file("transform/similarities/#{id}.json")
     title = input_json['title']
     url = 'https://www.gov.uk' + metadata_for(id)['base_path']
-    similar_documents = input_json['similar_document_ids'].map { |id| [id, metadata_for(id)['title']] }
+    similar_documents = input_json['similar_document_ids'].map { |id| [id, metadata_for(id)['title'], metadata_for(id)['taxons']] }
     taxons = metadata_for(id)['taxons']
 
     template = <<-TEMPLATE
@@ -171,6 +171,14 @@ raw_data_ids.each do |id|
       <ol>
       <% similar_documents.each do |id, title| %>
         <li><a href="<%= id %>.html"><%= title %></a></li>
+      <% end %>
+      </ol>
+      <h2>Suggested taxons</h2>
+      <ol>
+      <% similar_documents.each.with_index(1) do |(id, title, taxons), idx| %>
+        <% taxons.each do |taxon| %>
+          <li><%= taxon['title'] %> (<%= idx %>)</li>
+        <% end %>
       <% end %>
       </ol>
     TEMPLATE
