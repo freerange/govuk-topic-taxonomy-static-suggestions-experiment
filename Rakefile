@@ -151,7 +151,7 @@ raw_data_ids.each do |id|
 
     input_json = JSON.load_file("transform/similarities/#{id}.json")
     title = input_json['title']
-    url = 'https://www.gov.uk' + input_json['base_path']
+    url = 'https://www.gov.uk' + metadata_for(id)['base_path']
     similar_documents = input_json['similar_document_ids'].map { |id| [id, metadata_for(id)['title']] }
 
     template = <<-TEMPLATE
