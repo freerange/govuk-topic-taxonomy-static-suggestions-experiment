@@ -40,6 +40,10 @@ def strip_tags(s)
   Nokogiri.HTML(s).text.gsub(/\\n\s*/, " ")
 end
 
+def metadata_for(id)
+  JSON.load_file("transform/clean/#{id}.json")
+end
+
 raw_data_ids.each do |id|
   desc "Prepare file transform/clean/#{id}.json"
   file "transform/clean/#{id}.json" => ['transform/clean', 'extract/raw.csv'] do |f|
@@ -150,7 +154,7 @@ raw_data_ids.each do |id|
     url = 'https://www.gov.uk' + input_json['base_path']
     similar_documents = []
     input_json['similar_document_ids'].each do |id|
-      similar_documents << [id, JSON.load_file("transform/clean/#{id}.json")['title']]
+      similar_documents << [id, metadata_for(id)['title']]
     end
 
     template = <<-TEMPLATE
@@ -178,7 +182,7 @@ file 'public/index.html' => :public_files do |f|
 
   documents = []
   raw_data_ids.each do |id|
-    documents << [id, JSON.load_file("transform/clean/#{id}.json")['title']]
+    documents << [id, metadata_for(id)['title']]
   end
 
   template = <<-TEMPLATE
