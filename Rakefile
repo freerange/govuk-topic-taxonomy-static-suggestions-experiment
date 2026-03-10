@@ -14,6 +14,7 @@ directory 'extract'
 directory 'db'
 directory 'transform/clean'
 directory 'transform/embeddings'
+directory 'transform/similarities'
 
 desc 'Prepare input CSV file by querying content store base'
 file 'extract/raw.csv' => 'extract' do
@@ -98,11 +99,47 @@ file 'db/similarity.db' => ['db', raw_data_ids.map { |id| "transform/embeddings/
   end
 end
 
+raw_data_ids.each do |id|
+  desc "Prepare file transform/similarities/#{id}.json"
+  file "transform/similarities/#{id}.json" => ['transform/similarities', "transform/embeddings/#{id}.json", 'db/similarity.db'] do |f|
+    puts "Generating #{f.name}"
+
+    input_json = JSON.load_file("transform/embeddings/#{id}.json")
+
+    query = input_json['vector']
+
+    db = SQLite3::Database.new('db/similarity.db')
+    db.enable_load_extension(true)
+    SqliteVec.load(db)
+    db.enable_load_extension(false)
+
+    rows = db.execute(<<-SQL, [query.pack("f*")])
+      SELECT
+        id
+      FROM vec_items
+      WHERE embedding MATCH ?
+      ORDER BY distance
+      LIMIT 6
+    SQL
+
+    File.write(
+      f.name,
+      JSON.pretty_generate(
+        {
+          title: input_json['title'],
+          similar_document_ids: rows[1..].flatten
+        }))
+  end
+end
+
+desc 'Regenerate all files in transform/similarities'
+task :transform_similarities => raw_data_ids.map { |id| "transform/similarities/#{id}.json" }
+
 task :setup => ['extract/raw.csv']
 
 task :default do
   Rake::Task['setup'].invoke
-  exec('rake', 'transform_embeddings')
+  exec('rake', 'transform_similarities')
 end
 
 CLOBBER.include('extract', 'transform')
