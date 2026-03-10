@@ -148,13 +148,16 @@ raw_data_ids.each do |id|
     input_json = JSON.load_file("transform/similarities/#{id}.json")
     title = input_json['title']
     url = 'https://www.gov.uk' + input_json['base_path']
-    similar_document_ids = input_json['similar_document_ids']
+    similar_documents = []
+    input_json['similar_document_ids'].each do |id|
+      similar_documents << [id, JSON.load_file("transform/clean/#{id}.json")['title']]
+    end
 
     template = <<-TEMPLATE
       <h1><a href="<%= url %>"><%= title %></a></h1>
       <ol>
-      <% similar_document_ids.each do |id| %>
-        <li><a href="<%= id %>.html"><%= id %></a></li>
+      <% similar_documents.each do |id, title| %>
+        <li><a href="<%= id %>.html"><%= title %></a></li>
       <% end %>
       </ol>
     TEMPLATE
