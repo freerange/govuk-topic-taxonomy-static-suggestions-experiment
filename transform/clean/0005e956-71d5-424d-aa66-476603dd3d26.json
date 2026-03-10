@@ -1,5 +1,11 @@
 {
   "title": "FOI responses published by MOD: week commencing 12 February 2018",
   "body": "\"Ministry of Defence (MOD) Freedom of Information (FOI) responses published during the week commencing 12 February 2018 \"",
-  "base_path": "/government/publications/foi-responses-published-by-mod-week-commencing-12-february-2018"
+  "base_path": "/government/publications/foi-responses-published-by-mod-week-commencing-12-february-2018",
+  "taxons": [
+    {
+      "title": "Defence and armed forces",
+      "base_path": "/defence-and-armed-forces"
+    }
+  ]
 }

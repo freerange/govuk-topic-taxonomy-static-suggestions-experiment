@@ -1,5 +1,11 @@
 {
   "title": "DCMS: spending over £500, April 2025",
   "body": "\"DCMS publishes details of all spending over £500 using an electronic purchasing card solution (ePCS) on a monthly basis. The ePCS has replaced the government procurement card (GPC). \"",
-  "base_path": "/government/publications/dcms-spending-over-500-april-2025"
+  "base_path": "/government/publications/dcms-spending-over-500-april-2025",
+  "taxons": [
+    {
+      "title": "Government efficiency, transparency and accountability",
+      "base_path": "/government/government-efficiency-transparency-and-accountability"
+    }
+  ]
 }

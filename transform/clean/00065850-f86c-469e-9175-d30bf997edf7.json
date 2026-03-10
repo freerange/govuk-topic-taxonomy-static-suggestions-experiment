@@ -1,5 +1,11 @@
 {
   "title": "Home Office performance standards and test protocols for radiological equipment",
   "body": "\"As part of government’s drive to better engage with industry we have been reviewing how we collate our ideas for radiological detection equipment. Following consultation with industry, we have produced Home Office performance standards and test protocols for radiological equipment.  The purpose of the standards is to ensure current best measurement capability across a range of radiological equipment and provide a national benchmark against which equipment can be assessed. In addition they have been designed with international standards in mind in order to minimise any additional cost and to prevent duplication.  The standards establish technical performance criteria against which radiological equipment can be assessed as well as the test methodologies to be used. A second element of this document aims to stimulate future development of radiological equipment by outlining ‘desirable’ requirements.  Manufacturers and suppliers are therefore encouraged to carry out their own testing to the standards and invited to submit their test results to the Home Office Scientific Development Branch (HOSDB) either electronically (RNStandardsEnquiries@homeoffice.gov.uk) or by hard submission to:  HOSDB RN Standards CBRNE Sector Sandridge St Albans Herts AL4 9HQ  In particular they should highlight where the instrument:   meets the minimum requirements meets the stretching requirements meets any other standards or criteria   This information will then be held and drawn upon for decisions on future government procurements or testing. Please note that meeting the outlined criteria will not guarantee procurement.  For further information please contact HOSDB at the above email address  Date: Wed Oct 13 11:41:22 BST 2010   Electronic personal dosemeters (PDF file - 769kb) Dose rate monitors (PDF file - 711kb) Contamination monitors (PDF file - 753kb) Detection and alert instrumentation (PDF file - 708kb) Portable Spectrometry (PDF file - 833kb)  \"",
-  "base_path": "/government/publications/home-office-performance-standards-and-test-protocols-for-radiological-equipment"
+  "base_path": "/government/publications/home-office-performance-standards-and-test-protocols-for-radiological-equipment",
+  "taxons": [
+    {
+      "title": "Science and innovation",
+      "base_path": "/business-and-industry/science-and-innovation"
+    }
+  ]
 }

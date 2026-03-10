@@ -1,5 +1,11 @@
 {
   "title": "Annual IP crime and enforcement report: 2016 to 2017",
   "body": "\"The Intellectual Property (IP) crime and enforcement report 2016 to 2017 highlights current and emerging threats surrounding counterfeiting and piracy, including those conducted online. The report also contains statistical data and enforcement activities from UK law enforcement agencies including Police, Trading Standards and Customs along with industry bodies. This year’s report includes a separate supplement with a sample of IP related case studies from Trading Standards.  \"",
-  "base_path": "/government/publications/annual-ip-crime-and-enforcement-report-2016-to-2017"
+  "base_path": "/government/publications/annual-ip-crime-and-enforcement-report-2016-to-2017",
+  "taxons": [
+    {
+      "title": "Business and industry",
+      "base_path": "/business-and-industry"
+    }
+  ]
 }

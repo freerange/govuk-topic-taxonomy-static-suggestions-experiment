@@ -1,5 +1,11 @@
 {
   "title": "Child Support Agency quarterly summary of statistics: September 2014",
   "body": "",
-  "base_path": "/government/statistics/announcements/child-support-agency-quarterly-summary-of-statistics-september-2014"
+  "base_path": "/government/statistics/announcements/child-support-agency-quarterly-summary-of-statistics-september-2014",
+  "taxons": [
+    {
+      "title": "Welfare",
+      "base_path": "/welfare"
+    }
+  ]
 }

@@ -1,5 +1,15 @@
 {
   "title": "Malaysia-UK Strategic Dialogue 2022",
   "body": "\"Senior officials from the UK Foreign, Commonwealth & Development Office and the Ministry of Foreign Affairs of Malaysia met in London on 24 February 2022 for the first session of the Malaysia-United Kingdom Strategic Dialogue.  The Strategic Dialogue aims to refresh and strengthen cooperation across the breadth of the UK-Malaysia relationship. It will facilitate enhanced co-operation across a range of areas including political-diplomatic cooperation, foreign policy, sustainable growth and climate, heath, digital and technology, culture and people-to-people links. The UK and Malaysia reaffirm their commitment to work together across these areas to further boost the bilateral partnership.  \"",
-  "base_path": "/government/publications/uk-malaysia-strategic-dialogue-2022"
+  "base_path": "/government/publications/uk-malaysia-strategic-dialogue-2022",
+  "taxons": [
+    {
+      "title": "Foreign affairs",
+      "base_path": "/international/foreign-affairs"
+    },
+    {
+      "title": "UK prosperity and security: Asia, Latin America and Africa",
+      "base_path": "/international/uk-prosperity-and-security-asia-latin-america-and-africa"
+    }
+  ]
 }

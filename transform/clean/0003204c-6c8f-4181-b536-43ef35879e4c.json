@@ -1,5 +1,11 @@
 {
   "title": "Construction risk in coastal engineering: phase 2",
   "body": "\"At present there is a significant ongoing programme of government capital investment in coastal infrastructure to replace and reinforce defences in the face of rising sea levels and increased storminess.  The risks associated with undertaking such an investment programme prompted this project as a means to summarise the information, guidelines and good practice methods which, if adopted, would minimise the risks inherent in coastal construction.  The manual seeks to illustrate the complexity of risks associated with coastal engineering, expose the risks of all the parties involved, draw together existing knowledge, experience and research results and provide a protocol of recommended procedures and mitigation measures required to take account of, and control or reduce, construction risks at all stages of project development and implementation. \"",
-  "base_path": "/government/publications/construction-risk-in-coastal-engineering-phase-2"
+  "base_path": "/government/publications/construction-risk-in-coastal-engineering-phase-2",
+  "taxons": [
+    {
+      "title": "River maintenance, flooding and coastal erosion",
+      "base_path": "/environment/river-maintenance-flooding-coastal-erosion"
+    }
+  ]
 }

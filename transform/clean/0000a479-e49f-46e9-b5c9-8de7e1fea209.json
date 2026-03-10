@@ -1,5 +1,11 @@
 {
   "title": "DHSC: spending over £500, February 2020",
   "body": "\"The Department of Health and Social Care publishes details of all spending over £500 using an electronic purchasing card solution (ePCS) on a monthly basis. The ePCS has replaced the government procurement card (GPC). \"",
-  "base_path": "/government/publications/dhsc-spending-over-500-february-2020"
+  "base_path": "/government/publications/dhsc-spending-over-500-february-2020",
+  "taxons": [
+    {
+      "title": "Government spending",
+      "base_path": "/government/government-spending"
+    }
+  ]
 }

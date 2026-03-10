@@ -1,5 +1,11 @@
 {
   "title": "Libraries Taskforce communications sub-group: terms of reference",
   "body": "\" The Taskforce was active between 2015 to 2020.   Formation of this group was approved at the 7th meeting of the Taskforce, on 10 March 2016 in Northampton. These terms of reference were shared for approval, published and then updated and re-published following the meeting on 25 May 2017 in London.  The communications sub-group disbanded in 2018. \"",
-  "base_path": "/government/publications/libraries-taskforce-communications-sub-group-terms-of-reference"
+  "base_path": "/government/publications/libraries-taskforce-communications-sub-group-terms-of-reference",
+  "taxons": [
+    {
+      "title": "Library services",
+      "base_path": "/society-and-culture/library-services"
+    }
+  ]
 }

@@ -1,5 +1,15 @@
 {
   "title": "GL55 6UR, Mr Ian Bond and Mrs Caroline Bond: environmental permit issued",
   "body": "\"The Environment Agency publish permits that they issue under the Industrial Emissions Directive (IED).  This decision includes the permit and decision document for:   Operator name: Mr Ian Bond and Mrs Caroline Bond Installation name: Stanley’s Quarry Permit number: EPR/GP3893MX/V005  \"",
-  "base_path": "/government/publications/gl55-6ur-mr-ian-bond-and-mrs-caroline-bond-environmental-permit-issued"
+  "base_path": "/government/publications/gl55-6ur-mr-ian-bond-and-mrs-caroline-bond-environmental-permit-issued",
+  "taxons": [
+    {
+      "title": "Government efficiency, transparency and accountability",
+      "base_path": "/government/government-efficiency-transparency-and-accountability"
+    },
+    {
+      "title": "Environment",
+      "base_path": "/environment"
+    }
+  ]
 }

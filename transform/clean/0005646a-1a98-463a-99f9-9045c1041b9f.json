@@ -1,5 +1,19 @@
 {
   "title": "Transport resilience review: government's response",
   "body": "\"This is the government’s response to recommendations set out in the transport resilience review by a panel of experts. It outlines actions being taken to improve resilience across all modes:   road rail aviation maritime   The aim of the response is to set out government’s position on the recommendations. The document describes how the recommendations will be used by the owners and operators of our transport networks to improve resilience to extreme weather events. \"",
-  "base_path": "/government/publications/transport-resilience-review-governments-response"
+  "base_path": "/government/publications/transport-resilience-review-governments-response",
+  "taxons": [
+    {
+      "title": "Corporate and operational information (transport)",
+      "base_path": "/transport/corporate-and-operational-information-transport"
+    },
+    {
+      "title": "UK economy",
+      "base_path": "/business-and-industry/uk-economy"
+    },
+    {
+      "title": "Local government",
+      "base_path": "/regional-and-local-government/local-government"
+    }
+  ]
 }

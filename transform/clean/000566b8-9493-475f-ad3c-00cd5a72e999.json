@@ -1,5 +1,11 @@
 {
   "title": "Consultation on the Housing Transfer Manual",
   "body": "\"This consultation is aimed primarily at local authority landlords (especially those considering stock transfer) and their tenants. In addition, housing and treasury management consultants, private registered providers interested in taking on transfer properties, private sector funders and representative groups may also have an interest. \"",
-  "base_path": "/government/consultations/consultation-on-the-housing-transfer-manual"
+  "base_path": "/government/consultations/consultation-on-the-housing-transfer-manual",
+  "taxons": [
+    {
+      "title": "Rented housing sector",
+      "base_path": "/housing-local-and-community/rented-housing-sector"
+    }
+  ]
 }

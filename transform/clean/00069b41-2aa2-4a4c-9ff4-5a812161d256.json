@@ -1,5 +1,11 @@
 {
   "title": "Anglian river basin district flood risk management plan",
   "body": "\"The flood risk management plan (FRMP) is split into 7 documents. These are:    part a - includes the legislative background and information for all river basin districts part b - includes detail about each catchment, the flood risk areas and other strategic areas post adoption statement - an announcement of the adoption of the FRMP in accordance with the Environmental Assessment of Plans and Programmes Regulations 2004 (as amended) strategic environmental assessment statement of particulars - includes the potential impacts on people and the environment when implementing the measures in the FRMP  habitat regulations assessment - details the potential impacts on designated European sites when implementing the measures in the FRMP  habitats regulations assessment - non-technical summary annex 1 - provides the implementation status of each measure published in the first FRMP cycle   Detailed measure information for the Anglian river basin district and other smaller administrative boundaries within the RBD is available on the flood plan explorer.  The first cycle flood risk management plans for 2015 to 2021 are available on The National Archives.  \"",
-  "base_path": "/government/publications/anglian-river-basin-district-flood-risk-management-plan"
+  "base_path": "/government/publications/anglian-river-basin-district-flood-risk-management-plan",
+  "taxons": [
+    {
+      "title": "River maintenance, flooding and coastal erosion",
+      "base_path": "/environment/river-maintenance-flooding-coastal-erosion"
+    }
+  ]
 }

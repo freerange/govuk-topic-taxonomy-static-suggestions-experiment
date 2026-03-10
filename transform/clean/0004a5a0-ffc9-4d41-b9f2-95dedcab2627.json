@@ -1,5 +1,19 @@
 {
   "title": "Jobcentre Plus services for the armed forces and their families",
   "body": "\"As part of the Armed Forces Covenant, DWP is improving the way current and former members of the armed forces and their families access Jobcentre Plus services. This includes having an armed forces champion in every Jobcentre Plus District who ensures that we provide support that meets the needs of the armed forces community.  This publication explains the role of the armed forces champion and the improvements to the way members of the armed forces and their families access our services.  More information on GOV.UK  Find more information about Jobcentre Plus services at www.gov.uk/browse/working and www.gov.uk/browse/benefits  \"",
-  "base_path": "/government/publications/jobcentre-plus-services-for-the-armed-forces-and-their-families"
+  "base_path": "/government/publications/jobcentre-plus-services-for-the-armed-forces-and-their-families",
+  "taxons": [
+    {
+      "title": "Welfare",
+      "base_path": "/welfare"
+    },
+    {
+      "title": "Defence and armed forces",
+      "base_path": "/defence-and-armed-forces"
+    },
+    {
+      "title": "Pensions and ageing society",
+      "base_path": "/work/pensions-and-ageing-society"
+    }
+  ]
 }

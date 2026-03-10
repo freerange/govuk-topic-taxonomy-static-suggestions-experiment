@@ -51,13 +51,17 @@ raw_data_ids.each do |id|
   file "transform/clean/#{id}.json" => ['transform/clean', 'extract/raw.csv'] do |f|
     data = raw_data.find {|r| r['id'] == id}
 
+    taxons = JSON.parse(data['taxons'])
+    cleaned_taxons = taxons.map { |t| t.select { |key, _| ['title', 'base_path'].include?(key) } }
+
     File.write(
       f.name,
       JSON.pretty_generate(
         {
           title: data['title'],
           body: strip_tags(data['body']),
-          base_path: data['base_path']
+          base_path: data['base_path'],
+          taxons: cleaned_taxons
         }))
   end
 end

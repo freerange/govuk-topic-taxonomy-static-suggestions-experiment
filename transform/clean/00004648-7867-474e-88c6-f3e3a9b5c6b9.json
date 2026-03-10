@@ -1,5 +1,19 @@
 {
   "title": "NHS pay awards 2025 to 2026: resident doctors",
   "body": "\"The Secretary of State for Health and Social Care has accepted the recommendations of the independent pay review bodies to confirm the pay award for 2025 to 2026 for NHS resident doctors.  See NHS pay award 2025 to 2026 details for:   other doctors and dentists Agenda for Change staff  \"",
-  "base_path": "/government/publications/nhs-pay-awards-2025-to-2026-resident-doctors"
+  "base_path": "/government/publications/nhs-pay-awards-2025-to-2026-resident-doctors",
+  "taxons": [
+    {
+      "title": "Government efficiency, transparency and accountability",
+      "base_path": "/government/government-efficiency-transparency-and-accountability"
+    },
+    {
+      "title": "Payroll",
+      "base_path": "/employment/payroll"
+    },
+    {
+      "title": "National Health Service",
+      "base_path": "/health-and-social-care/national-health-service"
+    }
+  ]
 }

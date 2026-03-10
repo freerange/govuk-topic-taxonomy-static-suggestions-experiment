@@ -1,5 +1,11 @@
 {
   "title": "IP26 5JU, Mundford Poultry Limited: environmental permit application advertisement - EPR/PP3637MZ/V005",
   "body": "\"The Environment Agency consults the public on certain applications for:   waste and mining waste operations installations water discharge and groundwater activities medium combustion plant and specified generators   The arrangements are explained in their Public Participation Statement  These notices explain:   what the application is about which Environment Agency office you can visit to see the application documents on the public register  when you need to comment by The Environment Agency will decide:  whether to grant or refuse the application what conditions to include in the permit (if granted)   \"",
-  "base_path": "/government/publications/ip26-5ju-mundford-poultry-limited-environmental-permit-application-advertisement-eprpp3637mzv005"
+  "base_path": "/government/publications/ip26-5ju-mundford-poultry-limited-environmental-permit-application-advertisement-eprpp3637mzv005",
+  "taxons": [
+    {
+      "title": "Environmental permits",
+      "base_path": "/environment/environmental-permits"
+    }
+  ]
 }

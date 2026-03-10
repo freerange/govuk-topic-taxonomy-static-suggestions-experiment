@@ -1,5 +1,11 @@
 {
   "title": "Building Regulations 2000, Schedule 1, Part L Approved Documents proposed revisions for multi-foil insulation",
   "body": "\"The department considers that it is necessary to issue this letter along with circular 06/2007 because of 2 recent letters about the case sent to building control bodies by Actis, the company which brought the case to which the 2 November judgment mentioned above relates, and Ashurst, Actis’s lawyers. \"",
-  "base_path": "/government/publications/building-regulations-2000-schedule-1-part-l-approved-documents-proposed-revisions-for-multi-foil-insulation"
+  "base_path": "/government/publications/building-regulations-2000-schedule-1-part-l-approved-documents-proposed-revisions-for-multi-foil-insulation",
+  "taxons": [
+    {
+      "title": "Building regulation",
+      "base_path": "/housing-local-and-community/building-regulation"
+    }
+  ]
 }

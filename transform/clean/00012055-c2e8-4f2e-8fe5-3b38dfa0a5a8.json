@@ -1,5 +1,15 @@
 {
   "title": "LN4 4XQ, Mrs Barbara Mallows: environmental permit application advertisement",
   "body": "\"The Environment Agency consults the public on certain applications for waste operations, mining waste operations, installations, water discharge and groundwater activities. The arrangements are explained in its Public Participation Statement  These notices explain:    what the application is about   which Environment Agency office you can visit to see the application documents on the public register   when you need to comment by    The Environment Agency will decide:    whether to grant or refuse the application   what conditions to include in the permit (if granted)   \"",
-  "base_path": "/government/publications/ln4-4xq-mrs-barbara-mallows-environmental-permit-application-advertisement"
+  "base_path": "/government/publications/ln4-4xq-mrs-barbara-mallows-environmental-permit-application-advertisement",
+  "taxons": [
+    {
+      "title": "Government efficiency, transparency and accountability",
+      "base_path": "/government/government-efficiency-transparency-and-accountability"
+    },
+    {
+      "title": "Environment",
+      "base_path": "/environment"
+    }
+  ]
 }

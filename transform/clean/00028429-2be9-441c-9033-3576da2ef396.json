@@ -1,5 +1,11 @@
 {
   "title": "HM Treasury senior officials travel expenses: July to September 2018",
   "body": "\"This report shows international travel and accommodation used by HM Treasury senior officials at Senior Civil Service 2 (SCS2) (or equivalent) and above. The report includes bookings made through departments’ central booking systems. This will include the majority of travel undertaken. However, individuals may have booked a small number of journeys through other systems. Work is ongoing to ensure that this data is incorporated into future reports.  Some data may have been redacted if it was deemed that publishing it could impact on national or personal security.  During the transition from the previous reporting systems, please be aware that some travel data for civil servants at SCS3 and above is still published on data.gov.uk. \"",
-  "base_path": "/government/publications/hm-treasury-senior-officials-travel-expenses-july-to-september-2018"
+  "base_path": "/government/publications/hm-treasury-senior-officials-travel-expenses-july-to-september-2018",
+  "taxons": [
+    {
+      "title": "Government efficiency, transparency and accountability",
+      "base_path": "/government/government-efficiency-transparency-and-accountability"
+    }
+  ]
 }

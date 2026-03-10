@@ -1,5 +1,11 @@
 {
   "title": "DFID Somalia operational plan 2014",
   "body": "\"DFID Somalia operational plan 2014 \"",
-  "base_path": "/government/publications/somalia-operational-plan-2014"
+  "base_path": "/government/publications/somalia-operational-plan-2014",
+  "taxons": [
+    {
+      "title": "International aid and development",
+      "base_path": "/international/international-aid-and-development"
+    }
+  ]
 }

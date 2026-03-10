@@ -1,5 +1,11 @@
 {
   "title": "Women in Northern Ireland: 2017",
   "body": "\"This report provides detailed information on the economic status of women in Northern Ireland from the most recent quarterly Labour Force Survey (LFS) in July – September 2017 (which has not been adjusted for seasonality). In addition, the report provides information from other sources in relation to available childcare provision and income support, educational standards of women and participation by women in politics and business. \"",
-  "base_path": "/government/statistics/women-in-northern-ireland-2017"
+  "base_path": "/government/statistics/women-in-northern-ireland-2017",
+  "taxons": [
+    {
+      "title": "Northern Ireland",
+      "base_path": "/regional-and-local-government/northern-ireland"
+    }
+  ]
 }

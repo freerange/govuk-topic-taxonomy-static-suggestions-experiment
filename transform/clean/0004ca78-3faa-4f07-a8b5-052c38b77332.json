@@ -1,5 +1,11 @@
 {
   "title": "Official Statistics Catalogue",
   "body": "\"The DCMS Official Statistics Catalogue lists ‘official statistics’ produced by the DCMS and our Crown/Non-Crown bodies that are designated ‘official statistics producers’ under the Statistics and Registration Services Act 2007. \"",
-  "base_path": "/government/collections/statistics"
+  "base_path": "/government/collections/statistics",
+  "taxons": [
+    {
+      "title": "Arts and culture",
+      "base_path": "/society-and-culture/arts-and-culture"
+    }
+  ]
 }

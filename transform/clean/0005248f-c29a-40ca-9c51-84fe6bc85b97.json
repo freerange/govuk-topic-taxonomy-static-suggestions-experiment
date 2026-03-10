@@ -1,5 +1,11 @@
 {
   "title": "GAD spend greater than £25,000: June 2013",
   "body": "\"In May 2010 the Coalition Government set up new standards for transparency in government. All Departments have committed to publish any spend over £25,000. \"",
-  "base_path": "/government/publications/gad-spend-greater-than-25000-june-2013"
+  "base_path": "/government/publications/gad-spend-greater-than-25000-june-2013",
+  "taxons": [
+    {
+      "title": "Government efficiency, transparency and accountability",
+      "base_path": "/government/government-efficiency-transparency-and-accountability"
+    }
+  ]
 }

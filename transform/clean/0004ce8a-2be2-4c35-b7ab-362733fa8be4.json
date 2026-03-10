@@ -1,5 +1,15 @@
 {
   "title": "COP26 President visits Antigua and Barbuda",
   "body": "\"The COP26 President-Designate Alok Sharma visited Antigua and Barbuda on 6-7 July to see the effects of Hurricane Irma and discuss climate action to support small island states.  Mr Sharma saw firsthand some of the devastation caused to the island of Barbuda by Hurricane Irma and how the island’s communities are recovering and building resilience to natural disasters.  While on the island, Mr Sharma visited the Barbuda Energy Resilience Project, funded by a £2.89 million grant from the UK Government, which is increasing the resilience of the island’s power network to the effects of climate change.  On the island of Antigua, Mr Sharma took part in a Cabinet Meeting, following an invitation by Prime Minister Gaston Browne, where he explained the key goals for the UN Climate Change summit set for 31 October - 12 November 2021. Together they agreed to increase the pressure on major emitters and G20 countries to deliver urgent climate action ahead of COP26.  Mr Sharma reaffirmed the UK understanding of the vulnerability and challenges faced by small island developing states (SIDS) and continued commitment to advocate for them in the run up to COP26.  He repeated his challenge to all countries to make climate action plans that keep the goal of limiting global temperature rises to 1.5 degrees alive, something that is of particular importance to small island states.  As chair of AOSIS, the Small Island Developing States (SIDS) negotiating group, Antigua and Barbuda is pushing for COP26 to be a delivery point for climate action and ambition.  Following the visit, COP26 President-Designate Alok Sharma said:  “Antigua and Barbuda’s contribution to global emissions is 0.002%, yet as a small island state it will disproportionately suffer the effects of climate change.  “I have seen on my visit the ravages that Hurricane Irma has caused to communities and the need for international support to build resilience to extreme weather.  “But there is also a spirit in building back from this disaster that shows why Antigua and Barbuda are prominent climate action leaders, giving voice to small island states as Chair of the Alliance of Small Island States.  “The UK is an ally of small island states and as COP hosts we will ensure their voices will be heard at the climate change summit we are hosting later this year.  “And together we will push all countries but especially major emitters, to keep 1.5 alive, for increased action and ambition on adaptation, and to avert, minimise and address the loss and damage caused by climate change.” \"",
-  "base_path": "/government/news/cop26-president-visits-antigua-and-barbuda"
+  "base_path": "/government/news/cop26-president-visits-antigua-and-barbuda",
+  "taxons": [
+    {
+      "title": "Climate change adaptation",
+      "base_path": "/environment/climate-change-adaptation"
+    },
+    {
+      "title": "Climate change international action",
+      "base_path": "/environment/climate-change-international-action"
+    }
+  ]
 }

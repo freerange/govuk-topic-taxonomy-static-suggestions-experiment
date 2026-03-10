@@ -1,5 +1,15 @@
 {
   "title": "MGN 533 (M) Amendment 2 means of access",
   "body": "\"This notice should be read in conjunction with the merchant shipping and fishing vessels (health and safety at work) regulations 1997 (S.I 1997/2962) and Code of Safe Working Practices for Merchant Seafarers (COSWP) and replaces MGN 533 (M) amendment 1.  Amendment 2 updates references and industry best practice in carrying out risk assessments.  Notice to   shipowners operators and managers other employers of seafarers masters officers and seafarers  \"",
-  "base_path": "/government/publications/mgn-533-m-amendment-2-means-of-access"
+  "base_path": "/government/publications/mgn-533-m-amendment-2-means-of-access",
+  "taxons": [
+    {
+      "title": "Safe and compliant operation of vessels",
+      "base_path": "/transport/safe-and-compliant-operation-of-vessels"
+    },
+    {
+      "title": "Ship crew health and safety",
+      "base_path": "/transport/ship-crew-health-and-safety"
+    }
+  ]
 }

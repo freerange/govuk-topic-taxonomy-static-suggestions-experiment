@@ -1,5 +1,15 @@
 {
   "title": "Legal Aid Agency government procurement card spend over £500",
   "body": "\"How much LAA spent using government procurement cards (GPC). The data published includes transactions that have a single transaction value of £500 or above. \"",
-  "base_path": "/government/collections/legal-aid-agency-government-procurement-card-spend-over-500"
+  "base_path": "/government/collections/legal-aid-agency-government-procurement-card-spend-over-500",
+  "taxons": [
+    {
+      "title": "Crime, justice and law",
+      "base_path": "/crime-justice-and-law"
+    },
+    {
+      "title": "Government spending",
+      "base_path": "/government/government-spending"
+    }
+  ]
 }

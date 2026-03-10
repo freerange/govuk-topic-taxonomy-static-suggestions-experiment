@@ -1,5 +1,11 @@
 {
   "title": "Britský velvyslanec a Eva Jiřičná podruhé ocenili nezištnou pomoc druhým",
   "body": "\"V kategorii do 30 let zvítězil student David Jehlička, který se angažuje v řadě projektů na podporu romských studentů, dětských domovů nebo nevidomých, vítězkou v kategorii nad 30 let se stala Alexandra Doleželová, zakladatelka organizace Jako doma a projektu Kuchařky bez domova, věnující se ženskému bezdomovectví.  „Vybrat z více než osmdesáti nominací, které jsme letos obdrželi, nebylo vůbec jednoduché. Obdivuji všechny dobrovolníky, kteří věnují svůj volný čas a energii tomu, aby zlepšili svět kolem nás,“ uvedl velvyslanec Nick Archer.  Kromě absolutních vítězů byly v kategorii do 30 let oceněny zakladatelka Police Symphony Orchestra Petra Soukupová a vědkyně a spoluzakladatelka iniciativy Czechpats In Science Anna Stejskalová. V kategorii nad 30 let získali ocenění aktivista za bezbariérové přístupy do veřejného prostoru Erik Čipera a Věra Doušová, ředitelka Potravinové banky, autorka programu pro pracovní uplatnění znevýhodněných.  Podobně jako v minulém roce získali absolutní vítězové autorskou trofej dvou propojených srdcí od česko-britské architektky Evy Jiřičné. Při slavnostním ceremoniálu jí velvyslanec Archer popřál k životnímu jubileu a poděkoval za její mimořádný přínos světové architektuře a podporu sdílených česko-britských hodnot. Ty oslavuje velvyslanectví i v rámci programu #STOLET, který připomíná sté výročí fungování ambasády na Malé Straně. \"",
-  "base_path": "/government/news/416081.cs"
+  "base_path": "/government/news/416081.cs",
+  "taxons": [
+    {
+      "title": "Foreign affairs",
+      "base_path": "/international/foreign-affairs"
+    }
+  ]
 }

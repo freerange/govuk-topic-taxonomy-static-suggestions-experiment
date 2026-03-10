@@ -1,5 +1,15 @@
 {
   "title": "Training and development under the Animals (Scientific Procedures) Act",
   "body": "\"The Animals (Scientific Procedures) Act 1986 (ASPA) requires that persons with certain responsibilities relating to the use of animals in science have appropriate knowledge and training.   This is a requirement for each of the licences under ASPA:   establishment projects people   This guidance seeks to maintain and continuously review high standards of training and continuing professional development (CPD) that ensure individuals using animals in science have the necessary skills and competence to do so, in line with ASPA. \"",
-  "base_path": "/government/publications/training-and-development-under-the-animals-scientific-procedures-act"
+  "base_path": "/government/publications/training-and-development-under-the-animals-scientific-procedures-act",
+  "taxons": [
+    {
+      "title": "Wildlife, animals, biodiversity and ecosystems",
+      "base_path": "/environment/wildlife-animals-biodiversity-and-ecosystems"
+    },
+    {
+      "title": "Business and industry",
+      "base_path": "/business-and-industry"
+    }
+  ]
 }

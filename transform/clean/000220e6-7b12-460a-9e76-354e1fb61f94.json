@@ -1,5 +1,11 @@
 {
   "title": "Villiers honours role of Senator George Mitchell in Northern Ireland",
   "body": "\"The Secretary of State, Rt Hon Theresa Villiers MP, has honoured Senator George Mitchell’s achievements.  She was speaking last night at a reception to celebrate his achievements which was hosted in New York by Danny Lopez, UK Consul General and Sir David Fell, Pro-Chancellor of Queen’s University.  She said:   I am absolutely delighted to be here this evening to mark the contribution made by George Mitchell in Northern Ireland. Senator Mitchell won admiration from across all sections of community for his skill and dedication in chairing the Northern Ireland political talks that led to the landmark 1998 Belfast Agreement.    Crucially, too, it was Senator Mitchell who in 1996 set out the principles of non-violence and democracy that were to be the fundamental basis of those negotiations. His tireless work helped deliver the political stability Northern Ireland enjoys today. Northern Ireland is indebted to him for the huge contribution he made to ensuring that we have a peaceful Northern Ireland that look towards a confident future.  \"",
-  "base_path": "/government/news/villiers-honours-role-of-senator-george-mitchell-in-northern-ireland"
+  "base_path": "/government/news/villiers-honours-role-of-senator-george-mitchell-in-northern-ireland",
+  "taxons": [
+    {
+      "title": "Northern Ireland",
+      "base_path": "/regional-and-local-government/northern-ireland"
+    }
+  ]
 }

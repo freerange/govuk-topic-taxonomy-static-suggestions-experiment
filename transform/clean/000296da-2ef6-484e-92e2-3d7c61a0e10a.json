@@ -1,5 +1,23 @@
 {
   "title": "Decision for HITACHI CAPITAL (UK) PLC in the matter of a detained vehicle",
   "body": "\"DECISION  The Applicant, having satisfied me to the civil standard of proof:    that at the time the vehicle was detained the Applicant was the owner of the vehicle,  but having failed to satisfy me   that, although at the time the vehicle was detained it was being operated unlawfully, the Applicant was unaware of this fact,    the application for the release of vehicle Y100 ADA, is refused. \"",
-  "base_path": "/government/publications/decision-for-hitachi-capital-uk-plc-in-the-matter-of-a-detained-vehicle"
+  "base_path": "/government/publications/decision-for-hitachi-capital-uk-plc-in-the-matter-of-a-detained-vehicle",
+  "taxons": [
+    {
+      "title": "Professional driving of lorries, buses and coaches",
+      "base_path": "/transport/professional-driving-of-lorries-buses-and-coaches"
+    },
+    {
+      "title": "Road safety, driving rules and penalties",
+      "base_path": "/transport/road-safety-driving-rules-and-penalties"
+    },
+    {
+      "title": "Fleet management",
+      "base_path": "/transport/fleet-management"
+    },
+    {
+      "title": "Business regulation",
+      "base_path": "/business-and-industry/business-regulation"
+    }
+  ]
 }

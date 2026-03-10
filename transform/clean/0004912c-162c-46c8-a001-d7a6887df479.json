@@ -1,5 +1,15 @@
 {
   "title": "Evaluation of the Energy Company Obligation (ECO) Phases 2t and 3",
   "body": "\"In September 2019, the Department for Business, Energy and Industrial Strategy (BEIS) (predecessor to the Department for Energy Security and Net Zero) appointed Kantar Public to undertake a 3-wave household survey and follow-on qualitative interviews with households who have received measures under 2 phases of the Energy Company Obligation (ECO): ECO2t and ECO3.  The research was commissioned to provide insights on the type of households that have been reached by the scheme, households’ experience of getting the measures installed and the perceived impact.  The final report represents the findings from 3 research waves that were conducted between 2020 and 2022. The corresponding technical report details the methods and materials used in the research.  The 2021 interim reports present the findings from the first wave of fieldwork conducted in 2020. They contributed towards the wider evaluation.  \"",
-  "base_path": "/government/publications/evaluation-of-the-energy-company-obligation-eco-phases-2t-and-3"
+  "base_path": "/government/publications/evaluation-of-the-energy-company-obligation-eco-phases-2t-and-3",
+  "taxons": [
+    {
+      "title": "Household energy",
+      "base_path": "/housing-local-and-community/household-energy"
+    },
+    {
+      "title": "Business and industry",
+      "base_path": "/business-and-industry"
+    }
+  ]
 }

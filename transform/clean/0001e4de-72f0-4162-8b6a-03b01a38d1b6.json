@@ -1,5 +1,11 @@
 {
   "title": "Council tax reduction, caseload and expenditure Scotland: April to June 2014",
   "body": "\"Official statistics are produced impartially and free from any political influence. \"",
-  "base_path": "/government/statistics/council-tax-reduction-caseload-and-expenditure-scotland-april-to-june-2014"
+  "base_path": "/government/statistics/council-tax-reduction-caseload-and-expenditure-scotland-april-to-june-2014",
+  "taxons": [
+    {
+      "title": "Government efficiency, transparency and accountability",
+      "base_path": "/government/government-efficiency-transparency-and-accountability"
+    }
+  ]
 }

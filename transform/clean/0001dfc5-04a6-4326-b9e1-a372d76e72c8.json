@@ -1,5 +1,11 @@
 {
   "title": "Highways England Asset Management",
   "body": "\"England’s strategic road network is valued at £128 billion. Its real value is in connecting the country, supporting the growing economy and bringing friends and families safely together. Good asset management is about understanding our customers and stakeholders, and using our assets effectively to deliver the right level of service. We want to understand what satisfies our customers, and what we can do to respond to this.  Our strategy and policy help us to deliver our commitments, and continue our journey as an asset management organisation which is fully focused on safeguarding the future of one of our nation’s most important assets.  The strategic road network is made up of a diverse range of physical assets such as roads, bridges, and technology equipment. Operating and maintaining these physical assets, safely, reliably and effectively, is supported by non-physical assets such as a data and information. This Asset Management Strategy and Policy outline our approach to asset management, and how we will connect activities across our company to plan and deliver the service our customers expect.  Good asset management is critical for helping us drive the continuous improvement needed so the country can continue to get the best value from the strategic road network for our customers and our stakeholders. \"",
-  "base_path": "/government/publications/highways-england-asset-management"
+  "base_path": "/government/publications/highways-england-asset-management",
+  "taxons": [
+    {
+      "title": "Road infrastructure",
+      "base_path": "/transport/road-infrastructure"
+    }
+  ]
 }
